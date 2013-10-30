@@ -1,0 +1,100 @@
+% This is a LaTeX document. To output this to PDF, issue "make" in the current
+% directory. It will compile on central.
+%
+% Q. "Oh no! This is terrifying! How do I get this working?!"
+% A. $ ssh you2@central.aber.ac.uk  (use PuTTY if you can't)
+%    $ git clone git://github.com/cs21120/meta
+%    $ cd meta
+%    $ cd plan
+%    $ make
+%    Visit http://users.aber.ac.uk/you2/plan.pdf
+
+\documentclass[12pt,a4paper,titlepage,onecolumn,draft]{report}
+% remove draft before submission!
+% packages go here
+\usepackage{hyperref}
+
+\title{CS22120: Group Project \\ \emph{DRAFT}}
+\author{
+ Dillon Cuffe \and
+  Christopher Edwards \and
+  Douglas Gardner \and
+  Luke Horwood \and
+  Jostein Kristiansen \and
+  Ashley Smith \and
+  Ben Rainbow \and
+  James Woodside
+}
+
+\begin{document}
+\maketitle
+\tableofcontents
+% above is the preamble; it is boilerplate and you don't really need to
+% understand it. Below is the interesting bits:
+
+\part{Plan} %%%
+
+\section{Introduction}
+This document specifies the plan the Group shall use when creating its Group
+Project.
+
+\subsection{Purpose of this Document}
+The purpose of this document is to describe and specify the Group Plan that will
+be used by the second CS21120 Group Project group. Herein, an outline of the
+project and its constituent parts are described, in such a way that the Project
+can be created with cohesion.
+
+\subsection{Scope}
+This document specifies the platform, the architecture, and the target users of
+the project. It also describes use-cases and risk analysis of the project; as
+well as an overview of deadlines and user-interface design.
+
+\subsection{Objectives}
+The main objective of this document is to ensure that all members of the Group
+Project are aware of the requirements and objectives of the Project, as well as
+aiding the further development of the Project by ensuring that the visual
+appearance, functional behaviour, and use-case scenarios of the Project product
+is clearly defined and accessible to all.
+
+
+\section{Overview}
+
+\subsection{Platform Choice}
+It has been decided that the platform we will develop the application for is
+Android. Android is a free operating system for mobile phones \cite{openhandset},
+in which the applications are written in Java \cite{androidapi}. Because the
+Android operating system is free, there are no fees payable in order to create
+applications (unlike iOS applications, that require a \$99 annual
+fee \cite{appledev}.)
+
+\subsection{High-level Architecture}
+% TODO
+
+\subsection{Target users}
+The target users of our application will be second-year Computer Science
+students at Aberystwyth University. The target demographic is familiar with
+using computers, smartphones and other technology in their everyday life.
+\subsection{Use-cases}
+
+\subsection{User interface design}
+
+\subsection{Gantt chart}
+
+\subsection{Risk analysis}
+
+\begin{thebibliography}{5} % number should be approx. the total number of refs
+  \bibitem{openhandset}
+    "Android Overview". \emph{Open Handset Alliance.} Web. 30 Oct. 2013.
+  \bibitem{androidapi}
+    "Application Fundamentals." \emph{Android Developers.} Web. Accessed 30 Oct.
+    2013. Accessible at
+    \url{http://developer.android.com/guide/components/fundamentals.html}.
+  \bibitem{appledev}
+    "Choosing an iOS Developer Program". \emph{Apple, Inc.} Web. Accessed 30
+    Oct. 2013. Accessible at
+    \url{https://developer.apple.com/programs/start/ios/}.
+\end{thebibliography}
+
+\end{document}
+
+
